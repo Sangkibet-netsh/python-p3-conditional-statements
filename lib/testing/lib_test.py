@@ -33,7 +33,7 @@ class TestHowsTheWeather:
         '''returns "It's a little chilly out there!" for temperature=55'''
         assert(hows_the_weather(55) == "It's a little chilly out there!")
 
-    def test_above_85_too_dang_hot(self):
+    def test_above_75_too_dang_hot(self):
         '''returns "It's too dang hot out there!" for temperature=99'''
         assert(hows_the_weather(99) == "It's too dang hot out there!")
 
